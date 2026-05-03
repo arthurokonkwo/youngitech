@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Youngitech - Engineering the Leapfrog Era</title>
+<link href="./dist/tailwind.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+</head>
+<body class="bg-background text-on-background font-body antialiased selection:bg-primary selection:text-on-primary">
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-950/70 backdrop-blur-xl transition-all duration-300">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20">
+<a aria-label="Youngitech Home" class="inline-flex items-center" href="#">
+<img alt="Youngitech Logo" class="h-[60px] w-[60px]" src="/Users/arthur/.cursor/projects/Users-arthur-Zdev-Youngitech/assets/Youngitech_Logo-xs-d9a04ad1-22d2-4aff-9664-8115c4669290.png">
+</a>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#services">Capabilities</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#about">About</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#process">Process</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#training">Training</a>
+</div>
+<a class="hidden md:inline-flex items-center justify-center bg-primary text-on-primary px-6 py-2.5 rounded-[0.5rem] font-label font-medium hover:bg-primary-container transition-colors shadow-sm" href="#get-started">
+                Get Started
+            </a>
+<button aria-controls="mobile-nav" aria-expanded="false" aria-label="Open navigation menu" class="md:hidden text-on-surface p-2" id="mobile-nav-toggle" type="button">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+<div class="hidden md:hidden fixed inset-0 z-[55] bg-slate-950/40" id="mobile-nav-overlay"></div>
+<div class="md:hidden fixed top-0 right-0 h-full w-[85%] max-w-[320px] z-[60] bg-white dark:bg-white opacity-100 border-l border-outline-variant/20 p-5 transform translate-x-full transition-transform duration-300 ease-out shadow-2xl" id="mobile-nav">
+<div class="flex items-center justify-between mb-6">
+<span class="font-headline font-bold text-on-surface">Menu</span>
+<button aria-label="Close navigation menu" class="text-on-surface p-1" id="mobile-nav-close" type="button">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="flex flex-col items-start gap-4 bg-white dark:bg-white w-[calc(100%+2.5rem)] -mx-5 px-5">
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#services">Capabilities</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#about">About</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#process">Process</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#5D3FD3] transition-colors duration-200" href="#training">Training</a>
+<a class="inline-flex items-center justify-center bg-primary text-on-primary px-4 py-2 rounded-[0.5rem] font-label font-medium hover:bg-primary-container transition-colors shadow-sm mt-2" href="#get-started">Get Started</a>
+</div>
+</div>
+</nav>
+<section class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden border-b border-outline-variant/10 [background-image:radial-gradient(circle_at_2px_2px,rgba(201,196,215,0.15)_1px,transparent_0)] [background-size:40px_40px]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="max-w-4xl">
+<div class="inline-flex items-center space-x-2 bg-surface-container-high px-3 py-1.5 rounded-full mb-8">
+<span class="w-2 h-2 bg-primary rounded-sm"></span>
+<span class="text-xs font-label text-on-surface-variant font-medium tracking-wide uppercase">Engineering the Leapfrog Era</span>
+</div>
+<h1 class="text-4xl sm:text-5xl lg:text-7xl font-headline font-bold tracking-tight text-on-surface leading-tight mb-6">
+                    Building Real <br>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Technology Solutions.</span><br>
+                    Raising African Innovators.
+</h1>
+<p class="text-lg text-on-surface-variant font-body max-w-2xl mb-10 leading-relaxed border-l-2 border-primary/30 pl-4">
+                    We deliver world-class <strong class="text-primary font-medium">Hardware Engineering &amp; Embedded Solutions</strong> that solve real-world problems. Our mission is to raise the next generation of African innovators by transforming complex challenges into robust, scalable realities.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 mb-12">
+<a class="inline-flex items-center justify-center bg-primary text-on-primary px-8 py-3.5 rounded-[0.5rem] font-label font-medium hover:bg-primary-container transition-colors shadow-lg shadow-primary/20" href="mailto:uba@youngitech.com.ng?subject=Youngitech%20New%20Project">
+                        Start a Project
+                        <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center bg-surface-container-lowest text-primary border border-primary/20 px-8 py-3.5 rounded-[0.5rem] font-label font-medium hover:bg-surface-container-low transition-colors" href="mailto:uba@youngitech.com.ng?subject=Youngitech%20Training%20Request">
+                        Book Training / Talk to Us
+                    </a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 pt-8 border-t border-outline-variant/20 max-w-2xl">
+<div>
+<div class="font-headline text-2xl font-bold text-primary">100+</div>
+<div class="font-label text-xs text-on-surface-variant uppercase mt-1">Prototypes Built</div>
+</div>
+<div>
+<div class="font-headline text-2xl font-bold text-secondary">50+</div>
+<div class="font-label text-xs text-on-surface-variant uppercase mt-1">IoT Deployments</div>
+</div>
+<div>
+<div class="font-headline text-2xl font-bold text-tertiary">500+</div>
+<div class="font-label text-xs text-on-surface-variant uppercase mt-1">Innovators Trained</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/3 opacity-20 pointer-events-none hidden lg:block">
+<img alt="Abstract rendering of a complex printed circuit board with glowing traces" class="w-[800px] h-[800px] object-cover rounded-full mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0t5cPQTOGm_BVii7ae4Lz3wEwGufyIY6vDRCaQKp_r98slI5eOFQq7odFJ8rVaO4BdkjceY5wBceaM8QpEDs-ksWhOhWjw7bUhadvNJktWpNlTcCvVpVtwb_2wFLlQ6A2B5CcVXpNZNeGH1_V6-rP1qa-AOgs5ajTY88zAFyaVPvWou_p5nIRdd-mNomFwRitcez-ONzmS4ZOtnBMr4tNO0loDckDWGvZrR3o2FtAqhagLklgTcK7BaZkbOK3ZuXeimIsw6KZBnc">
+</div>
+</section>
+<section class="py-24 bg-surface-container-low relative" id="services">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8 border-l-4 border-primary pl-6">
+<div class="max-w-2xl">
+<h2 class="text-3xl lg:text-4xl font-headline font-bold text-on-surface tracking-tight mb-4">Engineering Capabilities</h2>
+<p class="text-on-surface-variant font-body">Modular solutions for complex hardware challenges.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="col-span-1 md:col-span-2 lg:col-span-2 bg-surface-container-lowest p-8 rounded-lg relative overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 group border border-outline-variant/20 flex flex-col justify-between">
+<div class="absolute right-0 bottom-0 opacity-5 group-hover:opacity-10 transition-opacity">
+<span class="material-symbols-outlined text-[150px]">developer_board</span>
+</div>
+<div class="flex items-start justify-between z-10 relative">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block [font-variation-settings:'FILL'_1]">developer_board</span>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3 group-hover:text-primary transition-colors">Embedded Systems</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed max-w-md">Firmware development, RTOS integration, and micro-architecture design for robust hardware performance.</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg border border-outline-variant/20 flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 group">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block [font-variation-settings:'FILL'_1]">route</span>
+<div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3">PCB Design</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Multi-layer routing, signal integrity analysis, and DFM optimization.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg border border-outline-variant/20 flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 group border-l-4 border-l-tertiary">
+<span class="material-symbols-outlined text-4xl text-tertiary mb-6 block [font-variation-settings:'FILL'_1]">wifi_tethering</span>
+<div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3">IoT Solutions</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Sensor integration, low-power networks, and cloud telemetry.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg border border-outline-variant/20 flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 group">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block [font-variation-settings:'FILL'_1]">precision_manufacturing</span>
+<div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3">Robotics</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Kinematics, control systems, and autonomous navigation architectures.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg border border-outline-variant/20 flex flex-col justify-between hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 group">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block [font-variation-settings:'FILL'_1]">hardware</span>
+<div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-3">Hardware Dev</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">End-to-end prototyping from schematic to physical enclosure.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
+<div class="space-y-8">
+<h2 class="text-3xl lg:text-4xl font-headline font-bold text-on-surface">Young and Godly Innovation Technology</h2>
+<div class="p-6 bg-primary/5 rounded-lg border-l-4 border-primary">
+<p class="font-headline text-xl text-primary font-medium italic">
+                    "Our mission is to build real technology solutions and raise African innovators who will lead the global tech revolution with integrity and excellence."
+                </p>
+</div>
+<div class="space-y-4 font-body text-on-surface-variant leading-relaxed text-lg">
+<p>
+                    Youngitech (Young and Godly Innovation Technology) is a premier engineering firm specializing in cutting-edge hardware development. We bridge the gap between imagination and physical reality, delivering precision-built solutions across various industries.
+                </p>
+<p>
+                    Beyond engineering, we are a training ground for the brightest minds. We believe in the potential of African talent and are dedicated to equipping individuals with the practical skills needed to excel in the global technology landscape.
+                </p>
+</div>
+</div>
+<div class="relative h-[320px] sm:h-[420px] lg:h-[500px] w-full rounded-2xl border border-outline-variant/20 overflow-hidden shadow-2xl bg-surface-container-lowest flex items-center justify-center p-6 sm:p-8">
+<img alt="Youngitech Logo" class="max-w-full max-h-full object-contain" src="/Users/arthur/.cursor/projects/Users-arthur-Zdev-Youngitech/assets/Youngitech_Logo-7904e164-75bd-4c45-ba34-5f638f6aca31.png">
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface-container-lowest border-y border-outline-variant/10" id="process">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center md:text-left max-w-3xl mb-20 border-l-4 border-primary pl-6">
+<h2 class="text-3xl lg:text-4xl font-headline font-bold text-on-surface tracking-tight mb-4">Our Engineering Process</h2>
+<p class="text-on-surface-variant font-body">From concept to production-ready hardware.</p>
+</div>
+<div class="relative mt-24">
+<div class="hidden md:block absolute top-0 left-0 w-full h-px bg-outline-variant/30 z-0"></div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8 relative z-10">
+<div class="bg-surface p-6 rounded-lg border border-outline-variant/15 text-center relative mt-12 md:mt-0 hover:shadow-lg hover:border-primary/30 transition-all">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-surface-container-lowest border-2 border-primary mx-auto rounded-full flex items-center justify-center mb-4 shadow-sm">
+<span class="text-primary font-headline font-bold text-xl">1</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface mb-2 mt-6">Discover</h4>
+<p class="text-sm text-on-surface-variant">Requirement analysis and feasibility studies.</p>
+</div>
+<div class="bg-surface p-6 rounded-lg border border-outline-variant/15 text-center relative mt-12 md:mt-0 hover:shadow-lg hover:border-secondary/30 transition-all">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-surface-container-lowest border-2 border-secondary mx-auto rounded-full flex items-center justify-center mb-4 shadow-sm">
+<span class="text-secondary font-headline font-bold text-xl">2</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface mb-2 mt-6">Design</h4>
+<p class="text-sm text-on-surface-variant">Schematics, architecture, and PCB layout.</p>
+</div>
+<div class="bg-surface p-6 rounded-lg border border-outline-variant/15 text-center relative mt-12 md:mt-0 hover:shadow-lg hover:border-tertiary/30 transition-all">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-surface-container-lowest border-2 border-tertiary mx-auto rounded-full flex items-center justify-center mb-4 shadow-sm">
+<span class="text-tertiary font-headline font-bold text-xl">3</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface mb-2 mt-6">Prototype</h4>
+<p class="text-sm text-on-surface-variant">Rapid fabrication and component assembly.</p>
+</div>
+<div class="bg-surface p-6 rounded-lg border border-outline-variant/15 text-center relative mt-12 md:mt-0 hover:shadow-lg hover:border-primary-container/30 transition-all">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-surface-container-lowest border-2 border-primary-container mx-auto rounded-full flex items-center justify-center mb-4 shadow-sm">
+<span class="text-primary-container font-headline font-bold text-xl">4</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface mb-2 mt-6">Test</h4>
+<p class="text-sm text-on-surface-variant">Rigorous validation and firmware debugging.</p>
+</div>
+<div class="bg-surface p-6 rounded-lg border border-outline-variant/15 text-center relative mt-12 md:mt-0 hover:shadow-lg hover:border-primary/30 transition-all">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-surface-container-lowest border-2 border-primary mx-auto rounded-full flex items-center justify-center mb-4 shadow-sm">
+<span class="text-primary font-headline font-bold text-xl">5</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface mb-2 mt-6">Deliver</h4>
+<p class="text-sm text-on-surface-variant">Final handover, documentation, and support.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface" id="training">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between md:items-end items-start mb-16 border-l-4 border-secondary pl-4 sm:pl-6 gap-6">
+<div>
+<h2 class="text-3xl lg:text-4xl font-headline font-bold text-on-surface mb-4">Training Programs</h2>
+<p class="font-body text-on-surface-variant max-w-2xl text-lg">Hands-on practical education for the next generation of engineers.</p>
+</div>
+<a class="inline-flex items-center justify-center bg-surface-container-lowest text-secondary border border-secondary/30 px-8 py-3.5 rounded-DEFAULT font-label font-medium hover:bg-secondary/5 transition-colors w-full sm:w-auto shadow-sm" href="mailto:uba@youngitech.com.ng?subject=Youngitech%20Training%20Request">
+                Request a Training Program
+            </a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden group hover:shadow-xl transition-all duration-300">
+<div class="h-48 bg-surface-container-high relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors"></div>
+<span class="material-symbols-outlined text-7xl text-primary opacity-70 group-hover:scale-110 transition-transform duration-500">memory</span>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-3">PCB Design Masterclass</h3>
+<p class="text-sm text-on-surface-variant mb-6 leading-relaxed">Learn industry-standard tools to design multi-layer boards from schematic to fabrication files.</p>
+<ul class="text-sm space-y-3 text-on-surface-variant mb-6 font-medium">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-primary">check_circle</span> Altium &amp; KiCad</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-primary">check_circle</span> Signal Integrity</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-primary">check_circle</span> DFM Principles</li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden group hover:shadow-xl transition-all duration-300">
+<div class="h-48 bg-surface-container-high relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-secondary/5 group-hover:bg-secondary/10 transition-colors"></div>
+<span class="material-symbols-outlined text-7xl text-secondary opacity-70 group-hover:scale-110 transition-transform duration-500">bolt</span>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-3">Applied Electronics</h3>
+<p class="text-sm text-on-surface-variant mb-6 leading-relaxed">Master component selection, circuit analysis, and practical prototyping techniques.</p>
+<ul class="text-sm space-y-3 text-on-surface-variant mb-6 font-medium">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-secondary">check_circle</span> Circuit Theory</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-secondary">check_circle</span> Microcontrollers</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-secondary">check_circle</span> Soldering &amp; Assembly</li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl overflow-hidden group hover:shadow-xl transition-all duration-300">
+<div class="h-48 bg-surface-container-high relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-tertiary/5 group-hover:bg-tertiary/10 transition-colors"></div>
+<span class="material-symbols-outlined text-7xl text-tertiary opacity-70 group-hover:scale-110 transition-transform duration-500">smart_toy</span>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-3">Robotics &amp; IoT Bootcamps</h3>
+<p class="text-sm text-on-surface-variant mb-6 leading-relaxed">Build connected systems and autonomous machines from scratch.</p>
+<ul class="text-sm space-y-3 text-on-surface-variant mb-6 font-medium">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span> Sensor Integration</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span> Embedded C/C++</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span> Cloud Telemetry</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-primary text-on-primary text-center [background-image:radial-gradient(circle_at_2px_2px,rgba(201,196,215,0.15)_1px,transparent_0)] [background-size:40px_40px]" id="get-started">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<h2 class="text-4xl md:text-5xl font-headline font-bold mb-6">Ready to Build the Future?</h2>
+<p class="text-xl text-primary-fixed-dim mb-10 font-body">Partner with Youngitech to turn your hardware concepts into reality.</p>
+<a class="inline-flex items-center justify-center bg-surface-container-lowest text-primary px-10 py-4 rounded-full font-label font-bold hover:bg-surface-container-low transition-colors shadow-xl text-lg" href="mailto:uba@youngitech.com.ng?subject=Youngitech%20New%20Project">
+                Start a Project Today
+                <span class="material-symbols-outlined ml-2">rocket_launch</span>
+</a>
+</div>
+</section>
+<footer class="w-full min-h-[100px] border-t border-outline-variant/20 bg-surface-container-low pt-0 pb-[20px]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="pt-8 border-t border-outline-variant/20 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
+<p class="font-body text-sm text-on-surface-variant">
+                    © 2026 Youngitech Engineering. Precision Built.
+                </p>
+<div class="flex space-x-4 mt-4 md:mt-0">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"></a>
+<a aria-label="Visit Youngitech on LinkedIn" class="text-on-surface-variant hover:text-primary transition-colors" href="https://www.linkedin.com/company/youngitech" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-xl">work</span></a>
+<a aria-label="Email Youngitech" class="text-on-surface-variant hover:text-primary transition-colors" href="mailto:uba@youngitech.com.ng"><span class="material-symbols-outlined text-xl">mail</span></a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        const mobileNavToggle = document.getElementById("mobile-nav-toggle");
+        const mobileNav = document.getElementById("mobile-nav");
+        const mobileNavOverlay = document.getElementById("mobile-nav-overlay");
+        const mobileNavClose = document.getElementById("mobile-nav-close");
+
+        if (mobileNavToggle && mobileNav && mobileNavOverlay) {
+            const openMenu = () => {
+                mobileNavToggle.setAttribute("aria-expanded", "true");
+                mobileNav.classList.remove("translate-x-full");
+                mobileNavOverlay.classList.remove("hidden");
+            };
+
+            const closeMenu = () => {
+                mobileNavToggle.setAttribute("aria-expanded", "false");
+                mobileNav.classList.add("translate-x-full");
+                mobileNavOverlay.classList.add("hidden");
+            };
+
+            mobileNavToggle.addEventListener("click", () => {
+                const isOpen = mobileNavToggle.getAttribute("aria-expanded") === "true";
+                if (isOpen) {
+                    closeMenu();
+                    return;
+                }
+
+                openMenu();
+            });
+
+            mobileNavOverlay.addEventListener("click", closeMenu);
+            if (mobileNavClose) {
+                mobileNavClose.addEventListener("click", closeMenu);
+            }
+
+            mobileNav.querySelectorAll("a").forEach((link) => {
+                link.addEventListener("click", () => {
+                    closeMenu();
+                });
+            });
+        }
+    </script>
+</body>
+</html>
